@@ -1,0 +1,19 @@
+//Vending machine
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        int x;
+        Scanner my_Object=new Scanner(System.in);
+        System.out.println("Enter a number(1 or 2):");
+        x =my_Object.nextInt();
+        if(x==1){
+            System.out.println("Dispensing juice.");
+        }
+        else if(x==2){
+            System.out.println("Dispensing soda.");
+        }
+        else{
+            System.out.println("Invalid choice.");
+        }
+        my_Object.close();
+    }}
